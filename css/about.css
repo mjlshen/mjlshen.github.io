@@ -28,10 +28,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #000;
-}
-
 .container {
 	position: relative;
 	margin-top: 7em;
