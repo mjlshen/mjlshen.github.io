@@ -31,9 +31,12 @@
 	line-height: 230px;
 }
 
-.cbp-af-header h1 {
-	text-transform: uppercase;
+.cbp-af-header a {
 	color: #333;
+}
+
+.cbp-af-header h1 {
+	/*color: #aaa;*/
 	letter-spacing: 4px;
 	font-size: 4em;
 	margin: 0;
