@@ -169,7 +169,7 @@ a {
 	color: #fff;
 }
 
-.main section:first-child > div {
+.main section:first-child, .main section:last-child > div {
 	padding-top: 0em;
 }
 
