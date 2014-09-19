@@ -180,7 +180,7 @@ Licensed under the MIT license
 			        			}
 			        			
 			        			//append committer username
-			        			commit += '<div class="user">By <a href="'+data[i].committer.url+'" target="_blank">'+data[i].committer.login+'</a></div></div>';
+			        			commit += '<div class="user">By <a href="'+data[i].committer.html_url+'" target="_blank">'+data[i].committer.login+'</a></div></div>';
 		        			}
 		        			
 		        			//close the commit message list item
