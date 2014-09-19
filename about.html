@@ -8,9 +8,13 @@
 		<meta name="description" content="mishen personal website" />
 		<meta name="author" content="mishen" />
 		<link rel="shortcut icon" href="img/flower64.png">
-		<link rel="stylesheet" type="text/css" href="css/about.css" />
+		<link rel="stylesheet" type="text/css" href="css/template.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/template.js"></script>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/commitment.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -20,23 +24,14 @@
 						<a href="http://mjlshen.github.io"> <img src="img/flower512.png" width="48" height="48">
 						Michael Shen</a></h1>
 					<nav>
-						<!--a href="#">Broccoli</a-->
 						<a href="http://mjlshen.github.io/blog">Blog</a>
 						<a href="https://github.com/mjlshen">Github</a>
 						<a href="#">About Me</a>
 					</nav>
 				</div>
 			</div>
-
 			<header class="clearfix">
-				<!--span>September 10, 2014 <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span-->
 				<h1>About Me</h1>
-				<!--nav>
-					<a href="#" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
-					<!a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a>
-					<a href="#" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
-					<a href="#" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
-				</nav-->
 			</header>	
 			<div class="main">
 				<section>
@@ -48,8 +43,9 @@
 						var linktext = username + "@" + hostname ;
 						document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
 					</script>
-					 is the way to go.</p></div>
-				</section>
+					 is the way to go.</p>
+					</div>
+ 				</section>
 				<section>
 					<div><p>Thanks to <a href = "http://tympanus.net/codrops/2013/05/02/vertical-timeline/">Codrops</a> for the interactive header!</p></div>
 					<div align=center><iframe src="http://ghbtns.com/github-btn.html?user=mjlshen&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
@@ -57,10 +53,16 @@
 				</section>
 			</div>
 		</div>
-		<script src="js/classie.js"></script>
-		<script src="js/about.js"></script>
-		<script src="js/smoothstate.js"></script>
-		<script src="js/smoothfunc.js"></script>
-		<script src="js/jquery-2.1.1.min.js"></script>
 	</body>
 </html>
+
+<!--p><a href="https://github.com/mjlshen/mjlshen.github.io/commits/" target="_blank">
+https://github.com/mjlshen/mjlshen.github.io/commits/</a>
+</p>
+<ul id="commits"></ul>
+<script>
+$('#commits').commitment({
+	user: 'mjlshen',
+	repo: 'mjlshen.github.io'
+});
+</script-->
