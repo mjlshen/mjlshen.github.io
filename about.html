@@ -10,11 +10,8 @@
 		<link rel="shortcut icon" href="img/flower64.png">
 		<link rel="stylesheet" type="text/css" href="css/template.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/commit.css" />
 		<script src="js/modernizr.custom.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/template.js"></script>
-		<script src="js/jquery-2.1.1.min.js"></script>
-		<script src="js/commitment.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -24,37 +21,40 @@
 						<a href="http://mjlshen.github.io"> <img src="img/flower512.png" width="48" height="48">
 						Michael Shen</a></h1>
 					<nav>
+						<!--a href="#">Broccoli</a-->
 						<a href="http://mjlshen.github.io/blog">Blog</a>
 						<a href="https://github.com/mjlshen">Github</a>
-						<a href="#">About Me</a>
+						<a href="http://mjlshen.github.io/about">About Me</a>
 					</nav>
 				</div>
 			</div>
-			<header class="clearfix">
-				<h1>About Me</h1>
-			</header>	
 			<div class="main">
 				<section>
-					<div><p>Hi, I'm an electrical engineer planning to graduate from the University of Michigan in 2016. I tend to tune out my surroundings and prefer to spend a little time on a lot of things. We'll see how long this experiment lasts, hopefully at least 6 months.</p>
-					<p>If you must contact me, 
-					<script language="JavaScript">
-						var username = "mishen";
-						var hostname = "umich.edu";
-						var linktext = username + "@" + hostname ;
-						document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-					</script>
-					 is the way to go.</p>
+					<div class="wrapper">
+						<ul id="commits"></ul>
+						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+						<script src="js/commitment.js"></script>
+						<script>
+							$('#commits').commitment({
+								user: 'mjlshen',
+								repo: 'mjlshen.github.io'
+							});
+						</script>
 					</div>
- 				</section>
-				<section>
+				</section>
+				<!--section>
 					<div><p>Thanks to <a href = "http://tympanus.net/codrops/2013/05/02/vertical-timeline/">Codrops</a> for the interactive header!</p></div>
 					<div align=center><iframe src="http://ghbtns.com/github-btn.html?user=mjlshen&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
 					</div>
-				</section>
+				</section-->
 			</div>
 		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/template.js"></script>
+		<script src="js/jquery-2.1.1.min.js"></script>
 	</body>
 </html>
+
 
 <!--p><a href="https://github.com/mjlshen/mjlshen.github.io/commits/" target="_blank">
 https://github.com/mjlshen/mjlshen.github.io/commits/</a>
