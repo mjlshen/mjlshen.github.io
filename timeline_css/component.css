@@ -69,6 +69,7 @@
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	color: #000;
 	background: #6cbfee;
 }
 

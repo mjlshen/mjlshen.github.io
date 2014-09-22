@@ -28,23 +28,19 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #000;
-}
-
 .main_timeline,
-.container > header {
+.tlcontainer > header {
 	width: 95%;
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 0 1.875em 3.125em;
 }
 
-.container > header {
+.tlcontainer > header {
 	padding: 2.875em 1.875em 1.875em;
 }
 
-.container > header h1 {
+.tlcontainer > header h1 {
 	font-size: 2.125em;
 	line-height: 1.3;
 	margin: 0;
@@ -52,7 +48,7 @@ a:hover {
 	font-weight: 400;
 }
 
-.container > header span {
+.tlcontainer > header span {
 	display: block;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -60,11 +56,11 @@ a:hover {
 	padding: 0 0 0.6em 0.1em;
 }
 
-.container > header nav {
+.tlcontainer > header nav {
 	float: right;
 }
 
-.container > header nav a {
+.tlcontainer > header nav a {
 	display: block;
 	float: left;
 	position: relative;
@@ -78,7 +74,7 @@ a:hover {
 	text-indent: -8000px;
 }
 
-.container > header nav a:after {
+.tlcontainer > header nav a:after {
 	content: attr(data-info);
 	color: #47a3da;
 	position: absolute;
@@ -90,11 +86,11 @@ a:hover {
 	pointer-events: none;
 }
 
-.container > header nav a:hover:after {
+.tlcontainer > header nav a:hover:after {
 	opacity: 1;
 }
 
-.container > header nav a:hover {
+.tlcontainer > header nav a:hover {
 	background: #47a3da;
 }
 
@@ -116,7 +112,7 @@ a:hover {
 	padding-left: 8px;
 }
 
-.container > header nav a:hover:before {
+.tlcontainer > header nav a:hover:before {
 	color: #fff;
 }
 
