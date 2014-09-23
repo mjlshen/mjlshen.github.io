@@ -1,10 +1,10 @@
 @font-face {
-	font-family: 'ecoico';
-	src:url('../timeline_fonts/timelineicons/ecoico.eot');
-	src:url('../timeline_fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
-		url('../timeline_fonts/timelineicons/ecoico.woff') format('woff'),
-		url('../timeline_fonts/timelineicons/ecoico.ttf') format('truetype'),
-		url('../timeline_fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-family: 'blogico';
+	src:url('../fonts/blogico/blogico.eot');
+	src:url('../fonts/blogico/blogico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/blogico/blogico.woff') format('woff'),
+		url('../fonts/blogico/blogico.ttf') format('truetype'),
+		url('../fonts/blogico/blogico.svg#blogico') format('svg');
 	font-weight: normal;
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
@@ -101,7 +101,7 @@
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'ecoico';
+	font-family: 'blogico';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -121,20 +121,44 @@
 	margin: 0 0 0 -234px;
 }
 
-.cbp_tmicon-phone:before {
+.blogico-home:before {
 	content: "\e000";
 }
 
-.cbp_tmicon-screen:before {
+.blogico-pencil:before {
 	content: "\e001";
 }
 
-.cbp_tmicon-mail:before {
+.blogico-droplet:before {
 	content: "\e002";
 }
 
-.cbp_tmicon-earth:before {
+.blogico-camera:before {
 	content: "\e003";
+}
+
+.blogico-music:before {
+	content: "\e004";
+}
+
+.blogico-library:before {
+	content: "\e005";
+}
+
+.blogico-calendar:before {
+	content: "\e006";
+}
+
+.blogico-screen:before {
+	content: "\e007";
+}
+
+.blogico-airplane:before {
+	content: "\e008";
+}
+
+.blogico-earth:before {
+	content: "\e009";
 }
 
 /* Example Media Queries */
